@@ -25,14 +25,14 @@ class WelcomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Welcome'),
+        title: const Text('Personal Evaluation'),
       ),
       body: SafeArea(
         child: Container(
           height: double.infinity,
           decoration: const BoxDecoration(
             image: DecorationImage(
-                image: AssetImage('asset/1393376.jpg'), fit: BoxFit.cover),
+                image: AssetImage('asset/1393652.jpg'), fit: BoxFit.cover),
           ),
           child: Padding(
             padding: const EdgeInsets.all(20),
@@ -46,7 +46,7 @@ class WelcomePage extends StatelessWidget {
                       'Provide Your Name Below..',
                       textAlign: TextAlign.right,
                       style: TextStyle(
-                        color: Colors.indigo,
+                        color: Color.fromARGB(255, 56, 54, 54),
                         fontSize: 15,
                       ),
                     ),
@@ -77,7 +77,17 @@ class WelcomePage extends StatelessWidget {
                         label: const Text('Continue')),
                   ),
                   const Text(
-                      '         A personal evaluation quiz is a tool used to assess and reflect on various aspects of an individual\'s life, behavior, skills, or attitudes. It typically consists of a series of questions or prompts that require self-reflection and introspection to help individuals gain insight into their strengths, weaknesses, and areas for improvement. Personal evaluation quizzes are commonly used for self-assessment, self-awareness, and self-improvement purposes.'),
+                    '         A personal career evaluation quiz is a tool used to assess and reflect on various aspects of an individual\'s Professional life, behavior, skills, or attitudes. In this series it containes 10 questions or prompts which help individuals evaluates a persons carees  introspection to gain insight into their strengths, weaknesses, and areas for improvement.',
+                    style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                        color: Color.fromARGB(
+                          255,
+                          56,
+                          54,
+                          54,
+                        )),
+                  ),
                 ],
               ),
             ),

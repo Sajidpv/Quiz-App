@@ -26,11 +26,11 @@ class Result extends StatelessWidget {
       height: double.infinity,
       decoration: const BoxDecoration(
         image: DecorationImage(
-            image: AssetImage('asset/1393652.jpg'), fit: BoxFit.cover),
+            image: AssetImage('asset/1393376.jpg'), fit: BoxFit.cover),
       ),
       child: Center(
         child: Text(
-          '${'Hey $name'.toUpperCase()}\n\n$resultPhrase',
+          '${'Hi $name'.toUpperCase()}\n\n$resultPhrase',
           style: const TextStyle(
               fontSize: 38,
               fontWeight: FontWeight.bold,
