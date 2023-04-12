@@ -6,7 +6,7 @@ This Application has a welcome page. this page take the user's name as input and
 
 ![Screenshot_1681287067](https://user-images.githubusercontent.com/125041012/231396928-884fc1ec-080c-4bcc-bbc3-b69e586fb84c.png)
 
-Next page Starts th quiz with 1st promte and has a welcome message.
+Next page Starts th quiz with 1st promte and has a welcome message. Each page have the total questions number and current question number
 
 ![Screenshot_1681287071](https://user-images.githubusercontent.com/125041012/231397223-9d4c8eac-9b9e-4879-a1fe-957c77ab224e.png)
 
